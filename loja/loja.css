@@ -1,0 +1,61 @@
+header {
+    width: 100%;
+    display: flex;
+    background-color: bisque;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.menu li {
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+.menu li a {
+	font-size: 24;
+	text-decoration: none;
+	color: #5D3006;
+	text-transform: uppercase;
+	padding: 10px 10px;
+	border-radius: 10px;
+}
+
+.menu li a:hover {
+	text-transform: none;
+}
+
+.carousel-item {
+    max-height: 450px;
+    min-height: 450px;
+}
+
+.color-whi{
+    color:white
+}
+
+.caixa {
+    max-width: 75%;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.card-group h5, p {
+    color: #5D3006;
+}
+
+.card {
+    color: #5D3006;
+    padding: 10px;
+}
+
+
+footer p {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    color: #5D3006;
+}
